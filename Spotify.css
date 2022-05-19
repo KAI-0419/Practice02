@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Circular, spotify-circular, Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+.logo {
+    width: 132px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 28px 17px;
+}
+
+.nav {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main{
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 4%;
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    color: #1ed760;
+
+}
+
+.center-head {
+    font-size: 156px;
+    font-weight: 900;
+    position: relative;
+    left: 225px;
+}
+
+.center-head-first {
+    position: relative;
+    left: -2.5em;
+    padding-bottom: 40px;
+}
+
+.center-centre {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area {
+    text-align: center;
+}
+
+.button-style {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    font-size: inherit;
+    border-radius: 500px;
+    border: none;
+    color: #2941ab;
+}
+
+.button-style:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-main {
+    padding-top: 80px;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.footer-first {
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.footer-contents {
+    width: 60%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contents-items {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-contents-title{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.sns {
+    
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-brands {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nation {
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.last-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-contents a {
+    margin-right: 24px;
+    color: #919496;
+    text-decoration: none;
+}
+
+.footer-copy {
+    color: #919496;
+}
